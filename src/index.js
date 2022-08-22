@@ -27,7 +27,8 @@ function getNumerologyValue( str, obj ) {
     // for ( const value of "abcdefghijklmnopqrstuvwxyz" ) {
     //     console.log(valueOfNumbers[value]);
     // }
-    for ( let value of str.toLowerCase() ) { // We loopen door de string heen en vangen elke entry af in char
+    for ( let value of str.toLowerCase() ) {
+        // We loopen door de string heen en vangen elke entry af in char
         // console.log(obj[value]);
         if ( obj[value] ) { // We loopen door de string heen en vangen elke entry af in char
             output += obj[value];
